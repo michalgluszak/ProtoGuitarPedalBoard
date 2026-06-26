@@ -1,0 +1,247 @@
+(footprint "TL2285EE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TL2285EE")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bdf789cd-c2bd-4a56-9f2c-753b9e279fae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TL2285EE"
+		(at 0 0.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "762c0b83-6793-49c8-9029-78c3f78e7134")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02c9703d-b35f-4d0f-a649-5eceb3d9f05b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfe95d2a-cf88-4175-995b-a24f018d1fc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4 -4)
+		(end 4 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b9a916e-79c5-44a8-a040-5ec217f0eab6")
+	)
+	(fp_line
+		(start -4 4)
+		(end -4 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40fdeadc-6a85-4c23-9ea5-93d7f3b40dcc")
+	)
+	(fp_line
+		(start 4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9307eae1-86a9-4f58-ba88-ab6e1cad877b")
+	)
+	(fp_line
+		(start 4 4)
+		(end -4 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea5afb2f-0d81-4d23-8eed-1e72cbd5cf37")
+	)
+	(fp_line
+		(start -5 -5)
+		(end 5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8bd7f9a2-2e11-4a44-a3fd-629fff317626")
+	)
+	(fp_line
+		(start -5 5.6)
+		(end -5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1896214e-cfbb-4175-b9e3-1319745d75b8")
+	)
+	(fp_line
+		(start 5 -5)
+		(end 5 5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc2dbc15-ff83-4a4f-a03b-0f50ee71a35c")
+	)
+	(fp_line
+		(start 5 5.6)
+		(end -5 5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3da35e81-013a-4d89-9d9d-afd3e22f693d")
+	)
+	(fp_line
+		(start -4 -4)
+		(end 4 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0aad740e-b54b-41ec-a259-5bca0fe75da9")
+	)
+	(fp_line
+		(start -4 4)
+		(end -4 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e694081-df9e-4615-a3ed-9ad80fa21fcc")
+	)
+	(fp_line
+		(start 4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fd186ce-557f-42ee-a463-6b49d3386af4")
+	)
+	(fp_line
+		(start 4 4)
+		(end -4 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bc8a338-c4aa-4c92-8c90-1fe09945f1bc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.3 0)
+		(layer "F.Fab")
+		(uuid "b671af4e-4697-4c9f-bdac-a4f3f404b2c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 3)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5671eee5-f624-4cac-ab02-7f66c1c7b9de")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2403a43-690d-419b-9288-1e07ab3a64c2")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 3)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8c22cbc-a732-4956-b39c-ac98917b1d1a")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 -3)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "285031a7-4e94-4781-9972-8a26e3dd6736")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -3)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "543eb6e1-7ece-4c6b-8d4f-1374d6085cd2")
+	)
+	(pad "6" thru_hole circle
+		(at 2.5 -3)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6c7ce7d-48d4-48bf-b6c8-e9f4387cc196")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D_Model/TL2285EE.stp"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
