@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e549bfa6-6582-4a90-81c7-b953cb7394b7")
+		(uuid "e46dbd40-2674-4cb8-be2a-b97ceaa9ebc6")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f686c20f-d610-4d41-a318-11dbf592d383")
+		(uuid "41ee725b-6cdb-4279-819b-027c9583926b")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "90fae702-9f60-474c-8219-cae0d6f7ae96")
+		(uuid "15b0e179-98a7-4226-b6ea-c81f17919f3c")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "34621edf-c282-4e59-89ab-2b12187177c4")
+		(uuid "aafef7f4-6ec0-4c27-98f6-395a03131f2b")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cc712169-91cb-4a17-b0cf-62e9da1fcfdc")
+		(uuid "fb5104d7-4c6e-4066-b02d-92eac857b7ee")
 	)
 	(fp_line
 		(start -8 8)
@@ -74,7 +74,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cd3d3464-6ea8-4be1-bd68-5725553780b5")
+		(uuid "5180d717-08cd-40e3-b44d-54c79a8c6596")
 	)
 	(fp_line
 		(start 8 -7)
@@ -84,7 +84,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5d2506dc-336c-407a-8571-18d280f0f3ca")
+		(uuid "4b2f5e6e-7f63-4f4c-80ea-507f3942edcf")
 	)
 	(fp_line
 		(start 8 8)
@@ -94,13 +94,13 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "923e947b-76ee-4e21-827e-c20a0e7458a0")
+		(uuid "d71ffab7-d548-4107-8d7f-9119ea28f75c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 11 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "837c0364-e4f6-4c60-b8e9-ccb4f43c179d")
+		(uuid "6907642a-1cc2-4112-af3f-ffa9367ab2e2")
 		(effects
 			(font
 				(size 1 1)
@@ -114,7 +114,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4de83753-587f-4877-9232-05fcfa3ee1fd")
+		(uuid "c5e2f71b-2564-4730-a23c-7de42b6c3cd6")
 	)
 	(pad "2" thru_hole oval
 		(at -5.3 0 180)
@@ -122,7 +122,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a4ef1900-72e3-4aa8-b384-6a9b8064c0b4")
+		(uuid "64b18342-d725-4a50-8c38-e2bc106124a8")
 	)
 	(pad "3" thru_hole oval
 		(at -5.3 4.8 180)
@@ -130,7 +130,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "57e073ce-4ac1-4f1e-b144-00771107f590")
+		(uuid "ad7bc039-3c67-4811-8053-f934b9cd2f72")
 	)
 	(pad "4" thru_hole oval
 		(at 0 -4.8 180)
@@ -138,7 +138,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "de349eec-efc5-4fa3-b9a0-fe07d1a50d6c")
+		(uuid "ae454713-582b-437a-b11f-3a72d5e6a5b9")
 	)
 	(pad "5" thru_hole oval
 		(at 0 0 180)
@@ -146,7 +146,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6db3ac23-9fc4-4efd-b5c4-b6b1f1c1ad39")
+		(uuid "5feaa93f-0c80-47c0-b9eb-6406566fb671")
 	)
 	(pad "6" thru_hole oval
 		(at 0 4.8 180)
@@ -154,7 +154,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "977fed27-ef40-4923-8b3e-b9b846231ba9")
+		(uuid "c2058de1-81e4-4d61-8a59-a669780d0302")
 	)
 	(pad "7" thru_hole oval
 		(at 5.3 -4.8 180)
@@ -162,7 +162,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3fafe7c3-c0b0-49a3-8c75-30a57e16944b")
+		(uuid "184876f3-3a80-43f0-981e-5444128d20be")
 	)
 	(pad "8" thru_hole oval
 		(at 5.3 0 180)
@@ -170,7 +170,7 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "67203d2d-39e5-4012-81a8-205187e3e071")
+		(uuid "eacc3f5c-a347-49da-9da2-01f0045e120b")
 	)
 	(pad "9" thru_hole oval
 		(at 5.3 4.8 180)
@@ -178,11 +178,11 @@
 		(drill oval 3 1.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0d8e6abc-d8cb-4606-b3e4-c629504ad2c1")
+		(uuid "7153d5a6-0832-41fe-8993-d89f02c5ce99")
 	)
 	(zone
 		(layer "F.SilkS")
-		(uuid "99304419-60b6-48aa-9ed7-0ad18b6f21e5")
+		(uuid "420c97f8-04a6-45ab-8e76-7af735b5eef7")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -211,7 +211,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3D_Model/1M31T1B1M1QE/3D/1M31T1B1M1QE.stp"
+	(model "${KIPRJMOD}/libs/models_3d/1M31T1B1M1QE.stp"
 		(offset
 			(xyz 0 0 0)
 		)
