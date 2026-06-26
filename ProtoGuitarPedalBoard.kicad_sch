@@ -3870,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:CL13106G"
+		(property "Footprint" "MyFootPrints:CL13106G"
 			(at 180.34 160.96 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +4198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:CL13106G"
+		(property "Footprint" "MyFootPrints:CL13106G"
 			(at 180.34 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -4372,7 +4372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:Potencjometr_WH148_3D"
+		(property "Footprint" "MyFootPrints:Potencjometr_WH148_3D"
 			(at 96.52 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -4720,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:TL2285EE"
+		(property "Footprint" "MyFootPrints:TL2285EE"
 			(at 119.38 134.29 0)
 			(hide yes)
 			(show_name no)
@@ -5306,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:Toggle_SW"
+		(property "Footprint" "MyFootPrints:Toggle_SW"
 			(at 241.935 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5487,7 +5487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:Potencjometr_WH148_3D"
+		(property "Footprint" "MyFootPrints:Potencjometr_WH148_3D"
 			(at 96.52 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5762,7 +5762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:Potencjometr_WH148_3D"
+		(property "Footprint" "MyFootPrints:Potencjometr_WH148_3D"
 			(at 43.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:GCT_DCJ200-10-A-XX-K_REVA"
+		(property "Footprint" "MyFootPrints:GCT_DCJ200-10-A-XX-K_REVA"
 			(at 41.402 55.372 0)
 			(hide yes)
 			(show_name no)
@@ -6661,7 +6661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Moje_Elementy:Potencjometr_WH148_3D"
+		(property "Footprint" "MyFootPrints:Potencjometr_WH148_3D"
 			(at 43.18 140.97 0)
 			(hide yes)
 			(show_name no)
