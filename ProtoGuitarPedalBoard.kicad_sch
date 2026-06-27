@@ -2897,6 +2897,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 34.29) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cf23b7-7226-4c0a-b6b8-8386f520ad1c")
+	)
+	(wire
+		(pts
 			(xy 245.745 91.44) (xy 266.7 91.44)
 		)
 		(stroke
@@ -2904,16 +2914,6 @@
 			(type default)
 		)
 		(uuid "1a174592-3986-4993-8e5d-90a07a48f647")
-	)
-	(wire
-		(pts
-			(xy 201.93 67.31) (xy 201.93 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca3ba38-a994-483b-b19d-486b00c30a4b")
 	)
 	(wire
 		(pts
@@ -2984,16 +2984,6 @@
 			(type default)
 		)
 		(uuid "50c7d95b-14a2-44a4-8df8-60f91434d526")
-	)
-	(wire
-		(pts
-			(xy 203.2 41.91) (xy 200.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fce26c-0434-44ba-9c49-dd8790562dbd")
 	)
 	(wire
 		(pts
@@ -3147,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 67.31) (xy 201.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae8d4567-b3bf-4cfc-b8d2-5d5b37395877")
-	)
-	(wire
-		(pts
 			(xy 163.83 91.44) (xy 176.53 91.44)
 		)
 		(stroke
@@ -3227,6 +3207,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 59.69) (xy 205.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7bb542-f9ca-49ad-b694-c51bcc7dc70c")
+	)
+	(wire
+		(pts
+			(xy 212.09 41.91) (xy 212.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f08610-f56f-4673-b781-8a80c886ee00")
+	)
+	(wire
+		(pts
 			(xy 96.52 167.64) (xy 96.52 171.45)
 		)
 		(stroke
@@ -3257,13 +3257,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 41.91) (xy 200.66 43.18)
+			(xy 213.36 67.31) (xy 213.36 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee6fecb6-da2b-458d-9e48-bc5802a869fa")
+		(uuid "e7ac613c-8497-451d-8abd-672a9edea183")
 	)
 	(wire
 		(pts
@@ -3286,7 +3286,7 @@
 		(uuid "14a95d77-ce01-4b9a-87d9-ec6baa8556c0")
 	)
 	(label "Signal_Effect_IN"
-		(at 203.2 39.37 180)
+		(at 212.09 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3356,7 +3356,7 @@
 		(uuid "433d746e-78a2-4fe8-a608-70659dbf0d5f")
 	)
 	(label "Vcc3"
-		(at 60.96 161.29 180)
+		(at 60.96 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3376,7 +3376,7 @@
 		(uuid "48779d9e-1b9f-44a2-b566-3fce9bee7e8c")
 	)
 	(label "GND_1"
-		(at 60.96 143.51 180)
+		(at 60.96 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3386,7 +3386,7 @@
 		(uuid "4ba9d991-68c4-4dbf-b9e7-acd85d1bb5b3")
 	)
 	(label "Vcc2"
-		(at 114.3 138.43 180)
+		(at 114.3 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3486,7 +3486,7 @@
 		(uuid "9273a4d6-b7a8-4d11-a38a-ff8590553d37")
 	)
 	(label "GND_2"
-		(at 114.3 143.51 180)
+		(at 114.3 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3496,7 +3496,7 @@
 		(uuid "989567e7-e989-48f1-a4e6-c984230ec54c")
 	)
 	(label "GND_4"
-		(at 114.3 166.37 180)
+		(at 114.3 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3506,7 +3506,7 @@
 		(uuid "99606067-479c-42b3-9828-6d2c74abf978")
 	)
 	(label "Vcc1"
-		(at 60.96 138.43 180)
+		(at 60.96 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3546,7 +3546,7 @@
 		(uuid "a7e910e1-5152-48e0-b9b8-f4974f525db8")
 	)
 	(label "Vcc4"
-		(at 114.3 161.29 180)
+		(at 114.3 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 		(uuid "ac8c84bb-20c2-4830-92b7-f2793ff4d4a6")
 	)
 	(label "GND_3"
-		(at 60.96 166.37 180)
+		(at 60.96 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3636,7 +3636,7 @@
 		(uuid "e14df03f-5d1b-4c00-a1e5-38cccb10d2c3")
 	)
 	(label "Signal_Effect_OUT"
-		(at 204.47 64.77 180)
+		(at 213.36 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4012,7 +4012,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 43.18 0)
+		(at 204.47 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4023,7 +4023,7 @@
 		(fields_autoplaced yes)
 		(uuid "21cee251-a246-4954-aeea-2071e8b7f104")
 		(property "Reference" "#PWR019"
-			(at 200.66 49.53 0)
+			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 48.26 0)
+			(at 204.47 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4044,7 +4044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 43.18 0)
+			(at 204.47 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4055,7 +4055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 43.18 0)
+			(at 204.47 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4066,7 +4066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 43.18 0)
+			(at 204.47 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5109,7 +5109,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 209.55 64.77 0)
+		(at 218.44 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5120,7 +5120,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b1c1eb7-2a5c-49ce-b68f-8a53c41fadbd")
 		(property "Reference" "J3"
-			(at 212.09 64.7699 0)
+			(at 220.98 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5131,7 +5131,7 @@
 			)
 		)
 		(property "Value" "FX_OUT"
-			(at 212.09 67.3099 0)
+			(at 220.98 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5142,7 +5142,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 209.55 64.77 0)
+			(at 218.44 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5153,7 +5153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 64.77 0)
+			(at 218.44 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,7 +5164,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 64.77 0)
+			(at 218.44 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,6 +5566,84 @@
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
 					(reference "POT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e84e62d-04e1-4ca1-8707-0d08322de32d")
+		(property "Reference" "#PWR020"
+			(at 205.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c3d6796-a680-40cb-9328-7ecfec787c0a")
+		)
+		(instances
+			(project "ProtoGuitarPedalBoard"
+				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6076,7 +6154,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 208.28 39.37 0)
+		(at 217.17 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6087,7 +6165,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0c5aea7-6935-46ed-aed3-6623f1621043")
 		(property "Reference" "J2"
-			(at 210.82 39.3699 0)
+			(at 219.71 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6098,7 +6176,7 @@
 			)
 		)
 		(property "Value" "FX_IN"
-			(at 210.82 41.9099 0)
+			(at 219.71 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6109,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 208.28 39.37 0)
+			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6120,7 +6198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 39.37 0)
+			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6131,7 +6209,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 39.37 0)
+			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,84 +6229,6 @@
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 201.93 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a976766e-915e-40b9-91de-c01939e707af")
-		(property "Reference" "#PWR020"
-			(at 201.93 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef362f71-33c5-480c-b32c-8b8c60eee15c")
-		)
-		(instances
-			(project "ProtoGuitarPedalBoard"
-				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
