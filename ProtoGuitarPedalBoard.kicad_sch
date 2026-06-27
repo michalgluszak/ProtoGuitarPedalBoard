@@ -3687,7 +3687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aad4e3a-f498-49b0-ad43-79fef4088217")
-		(property "Reference" "J_R_POT_4"
+		(property "Reference" "J_POT4"
 			(at 121.92 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3754,7 +3754,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "J_R_POT_4")
+					(reference "J_POT4")
 					(unit 1)
 				)
 			)
@@ -4350,7 +4350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fdfeb9f-9071-4180-b842-5b16b26f1379")
-		(property "Reference" "RV4"
+		(property "Reference" "POT4"
 			(at 93.98 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4450,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "RV4")
+					(reference "POT4")
 					(unit 1)
 				)
 			)
@@ -5119,7 +5119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1c1eb7-2a5c-49ce-b68f-8a53c41fadbd")
-		(property "Reference" "J_Signal_Effect_OUT1"
+		(property "Reference" "J3"
 			(at 212.09 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "FX_OUT"
 			(at 212.09 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,7 +5183,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "J_Signal_Effect_OUT1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d836ba6-adfc-4b7f-ae57-b01a41903194")
-		(property "Reference" "J_R_POT_3"
+		(property "Reference" "J_POT3"
 			(at 68.58 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,7 +5268,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "J_R_POT_3")
+					(reference "J_POT3")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69f821d0-f2ea-4d4c-b4d3-a83316f5b1ea")
-		(property "Reference" "RV2"
+		(property "Reference" "POT2"
 			(at 93.98 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5565,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "RV2")
+					(reference "POT2")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b4434c-ab63-4eaa-9efa-5d36420f1a8e")
-		(property "Reference" "RV3"
+		(property "Reference" "POT3"
 			(at 40.64 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5840,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "RV3")
+					(reference "POT3")
 					(unit 1)
 				)
 			)
@@ -6086,7 +6086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c5aea7-6935-46ed-aed3-6623f1621043")
-		(property "Reference" "J_Signal_Effect_IN1"
+		(property "Reference" "J2"
 			(at 210.82 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6097,7 +6097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "FX_IN"
 			(at 210.82 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,7 +6150,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "J_Signal_Effect_IN1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6639,7 +6639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccce609a-2104-40ea-92b4-d7786f516b04")
-		(property "Reference" "RV1"
+		(property "Reference" "POT1"
 			(at 40.64 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "RV1")
+					(reference "POT1")
 					(unit 1)
 				)
 			)
@@ -6987,7 +6987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef542128-d7e5-4d40-8173-e3524cd1822c")
-		(property "Reference" "J_R_POT_1"
+		(property "Reference" "J_POT1"
 			(at 68.58 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7054,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "J_R_POT_1")
+					(reference "J_POT1")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7836fed-c38c-44f9-80a1-554e532c6e03")
-		(property "Reference" "J_R_POT_2"
+		(property "Reference" "J_POT2"
 			(at 121.92 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7308,7 @@
 		(instances
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
-					(reference "J_R_POT_2")
+					(reference "J_POT2")
 					(unit 1)
 				)
 			)
