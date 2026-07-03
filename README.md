@@ -10,7 +10,7 @@
 * **Circuit Logic:** Clear division into functional blocks (Power Supply, Audio I/O & True Bypass, Potentiometers).
 
 <p align="center">
-  <img src="Images/schematic.svg" alt="Schematic" width="100%">
+  <img src="Images/schematic.png" alt="Schematic" width="100%">
 </p>
 
 ---
