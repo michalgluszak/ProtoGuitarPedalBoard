@@ -2747,16 +2747,6 @@
 		)
 		(uuid "0fd05a8d-281f-4e0f-95a1-9e09d6c92eb9")
 	)
-	(text "GF063P1-B104K TOCOS "
-		(exclude_from_sim no)
-		(at 199.136 94.742 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64ea6b6b-df87-42ac-8876-c74c1cd39fe0")
-	)
 	(text "Mounting Hole"
 		(exclude_from_sim no)
 		(at 159.258 125.222 0)
