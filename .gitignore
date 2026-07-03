@@ -117,3 +117,6 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/kicad,linux,macos,windows
 
 .history/
+
+# Ignoruj pliki blokady KiCad
+~*.lck
