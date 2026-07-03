@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -632,6 +631,107 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MyFootPrints:Breadboard"
+		(layer "F.Cu")
+		(uuid "07105a90-35f5-400a-99e4-25acd344b96a")
+		(at 225 166)
+		(property "Reference" "U1"
+			(at -0.05 -1.7 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6f47df71-633c-4bc7-9fe5-dcc41f2721f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Bread Board"
+			(at -0.05 -0.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1ff273e6-b369-4bc9-a801-6e82098f17ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18eb1346-b7e9-44e8-98e2-14d9fd09b598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd13e5f7-08af-427f-bf9d-2e1c2539b635")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/174ecc1e-a6d9-434b-9e6a-a68701640b43")
+		(sheetname "/")
+		(sheetfile "ProtoGuitarPedalBoard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -82.45 -27.5)
+			(end 82.55 27.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c5af8ca7-1b6b-48b8-8d29-f2213ff64fce")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.05 1.3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bf566dd6-8dc7-4604-a59e-0c0cebb9176d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models_3d/Breadboard.STEP"
+			(offset
+				(xyz 0 0 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
