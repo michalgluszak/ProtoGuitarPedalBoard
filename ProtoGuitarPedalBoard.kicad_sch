@@ -2877,6 +2877,12 @@
 		(uuid "4979763b-1ad7-43fc-bed9-8fa00ae40a2b")
 	)
 	(junction
+		(at 49.53 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51102c71-3921-44a5-9ed4-39d5795064c9")
+	)
+	(junction
 		(at 234.315 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2995,16 +3001,6 @@
 			(type default)
 		)
 		(uuid "21f34afa-3c1e-4c8e-83ab-64552a26371d")
-	)
-	(wire
-		(pts
-			(xy 234.315 83.82) (xy 234.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34279235-c101-4045-9d4b-31884ea401bc")
 	)
 	(wire
 		(pts
@@ -3607,7 +3603,7 @@
 		(uuid "a5dd309f-4d6f-4673-a900-2824532342e7")
 	)
 	(label "Signal_IN"
-		(at 234.95 83.82 180)
+		(at 234.315 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6374,6 +6370,84 @@
 			(project "ProtoGuitarPedalBoard"
 				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a34aa229-cc97-4730-86de-f9f9356a995d")
+		(property "Reference" "#FLG02"
+			(at 49.53 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b41c007e-45d7-45f3-8e05-37083968abd7")
+		)
+		(instances
+			(project "ProtoGuitarPedalBoard"
+				(path "/2a8b80b8-5d3d-4d4d-9a33-7c13d8ce3b60"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
