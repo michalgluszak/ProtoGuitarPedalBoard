@@ -16,6 +16,9 @@ This project was born from my passion for music electronics. My first experience
 * **Convenient Power Supply:** A power connector (DC Jack) with a switch and a power status LED. Power pins (VCC, GND) are conveniently placed next to the breadboard.
 * **Potentiometer Modules:** 4 built-in potentiometers on the edges of the board. Each has its pins routed to pin headers, which allows for a quick connection to the prototype circuit using jumper wires.
 
+> [!WARNING]  
+> **Important Power Supply Note (Polarity):** As is standard for guitar pedals, this board is designed for a **center-negative** power supply (BOSS style). Many standard household AC/DC adapters are center-positive. Connecting a center-positive adapter without checking the polarity can permanently damage your prototype circuits! Always verify your power supply before plugging it in.
+
 ## PCB Technical Specifications
 
 While designing the printed circuit board, I used good engineering practices to ensure power stability and minimize noise in the audio signal:
