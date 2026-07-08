@@ -51,7 +51,7 @@ The trace layout was optimized for ease of use and minimization of audio signal 
 
 To make the assembly of the motherboard easier, I generated an interactive Bill of Materials (BOM) using the *InteractiveHtmlBom* plugin.
 
-👉 **[Open Interactive BOM](https://michalgluszak.github.io/ProtoGuitarPedalBoard/Documentation/bom/ProtoGuitarPedalBoard_BOM.html)**
+👉 **[Open Interactive BOM](https://michalgluszak.github.io/ProtoGuitarPedalBoard/Documentation/bom/ibom.html)**
 
 ---
 *Project created in KiCad 10.0.*
